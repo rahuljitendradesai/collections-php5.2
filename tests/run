@@ -1,0 +1,18 @@
+<?php
+/**
+ * Collection
+ *
+ * LICENSE
+ *
+ * This source file is subject to the new BSD license that is bundled
+ * with this package in the file LICENSE.txt.
+ *
+ * @author     Fabio B. Silva
+ * @copyright  Copyright (c) 2009-2011 FlexRia Inc. (http://www.flexria.com.br)
+ */
+
+
+require 'bootstrap.php';
+require 'AllTests.php';
+
+PHPUnit_TextUI_Command::main();

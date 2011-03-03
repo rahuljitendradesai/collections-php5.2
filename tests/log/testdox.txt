@@ -1,0 +1,15 @@
+Sphping
+ [x] Get config
+ [x] Get container
+ [x] Reload beans
+ [x] Get bean
+ [x] Bean exists
+
+Sphping_Container
+ [x] Get configs
+ [x] Config exists
+
+Sphping_Config
+ [x] Get configs
+ [x] Config exists
+

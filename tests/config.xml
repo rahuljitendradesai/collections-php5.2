@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--bootstrap="bootstrap.php"-->
+<phpunit 
+    colors="true"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    stopOnFailure="false">
+
+
+    <logging>
+        <log type="tap" target="./log/logfile.tap"/>
+        <log type="testdox-text" target="./log/testdox.txt"/>
+        <log type="junit" target="./log/logfile.xml" logIncompleteSkipped="false"/>
+    </logging>
+    <!--<filter>
+        <blacklist>
+            <directory suffix=".php">./</directory>
+        </blacklist>
+        <whitelist>
+            <directory suffix=".php">../test/</directory>
+        </whitelist>
+    </filter>-->
+
+</phpunit>
